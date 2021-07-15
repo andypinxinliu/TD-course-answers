@@ -1,0 +1,47 @@
+大家好，数据结构第3次正课 已由Andy老师反馈：
+
+上课时间：2021-06-17 10:10-12:10
+
+1.本节课内容：
+1. while循环，for循环语句法则复习
+2. for each循环规则与一般for循环的区别 
+3. Java I/O 使用方法 
+4. 类与对象的概念 
+5. local variable，instance variable，区别与联系 
+6. 构造器编写和使用
+7. Variable Scope概念
+8. Access Modifier 的概念
+
+2.下节课预告：
+完成OOP Programming的学习，并开始讲解继承与多态
+
+3.作业：
+【大作业due date推迟至6.21日】作业地址：https://classroom.github.com/a/pmDdI3Fn
+
+【打卡作业】
+1. 完成Java Basic and Class Construction
+
+4.附件：
+《ComplexNumber.java》https://tdfile.testdaily.cn/group1/M00/31/6F/rBHuyWDK0OqEfTn3AAAAAPC1w6A08.java
+《ComplexNumberDriver.java》https://tdfile.testdaily.cn/group1/M00/31/6F/rBHuyWDK0PKEVYlAAAAAAOZXZOQ05.java
+《SystemInput.java》https://tdfile.testdaily.cn/group1/M00/31/6F/rBHuyWDK0PWEM75cAAAAAC8Vut016.java
+《Java Basic and Class Construction.txt》https://tdfile.testdaily.cn/group1/M00/31/6F/rBHuyWDK0WuEK9LrAAAAAKRtxhU961.txt
+
+
+
+Problem 1.
+  In this task, you need to "mimic" deleting an element in the array.
+  You need to implement a function called remove(int index), which can delete the element in position index (recall that index of array start from zero).
+  For example, you have an array
+    int[] arr = {1,23,0,7,9};
+    remove(arr,1);//23 is deleted since it is at index 1
+    System.out.println(arr[1]);//this will print 0 since 23 is removed.
+
+Problem 2.
+  You need to construct a class called "Node". This is an extremely important data type in our later class.
+  A node is an analogy of a "cargo", it store the current cargo information (such as weight, number of people, etc), and the address of next cargo.
+  This class need to store 2 information:
+    1. an integer to represent the value of current node;
+    2. a Node to represent next Node
+
+  You need to implement 2 constructor, 1 is a default constructor which set every instance variable to default value. The other one takes 2 instance variable that set instance variable to desirable value.
